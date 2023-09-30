@@ -8,13 +8,13 @@ The API is built using **GO**  , a choice inspired by my desire to venture into 
 - Contains `main.go`, which acts as the entry point of the API. Here, all the routes for our endpoints are defined and linked with their respective functionalities. 
 2. **middlewares Directory**  : 
 - Contains `cors.go` which handles Cross-Origin Resource Sharing (CORS), ensuring that the API is accessible to the frontend application. 
-2. **Handlers Directory**  :
+3. **Handlers Directory**  :
 - Responsible for managing HTTP requests to the different endpoints. It bridges the gap between incoming requests and the application's business logic. 
-3. **Services**  :
+4. **Services**  :
 - Comprises the heart of our API. The services for scraping and sentiment analysis encapsulate the business logic required for the endpoints' operations. 
-4. **Utils**  :
+5. **Utils**  :
 - Equips the API with a set of utilities that aid in fetching data from URLs and manipulating text data. 
-5. **Packages**  : 
+6. **Packages**  : 
 - The application utilizes the `goquery` package which offers powerful scraping capabilities, allowing the extraction and manipulation of HTML content with ease
 ### Frontend:
 
