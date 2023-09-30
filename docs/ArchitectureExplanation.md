@@ -3,17 +3,19 @@
 The WebScrapingChallenge application is structured into two main components: a backend API and a frontend user interface.
 ### Backend (API):
 
-The API is built using **GO** , a choice inspired by my desire to venture into an unfamiliar language. The core structure of the API is as follows: 
-1. **cmd Directory** : 
+The API is built using **GO**  , a choice inspired by my desire to venture into an unfamiliar language. The core structure of the API is as follows: 
+1. **cmd Directory**  : 
 - Contains `main.go`, which acts as the entry point of the API. Here, all the routes for our endpoints are defined and linked with their respective functionalities. 
-2. **middlewares Directory** : 
+2. **middlewares Directory**  : 
 - Contains `cors.go` which handles Cross-Origin Resource Sharing (CORS), ensuring that the API is accessible to the frontend application. 
-3. **Services** :
+2. **Handlers Directory**  :
+- Responsible for managing HTTP requests to the different endpoints. It bridges the gap between incoming requests and the application's business logic. 
+3. **Services**  :
 - Comprises the heart of our API. The services for scraping and sentiment analysis encapsulate the business logic required for the endpoints' operations. 
-4. **Utils** :
+4. **Utils**  :
 - Equips the API with a set of utilities that aid in fetching data from URLs and manipulating text data. 
-5. **Packages** : 
-- The application utilizes the `goquery` package which offers powerful scraping capabilities, allowing the extraction and manipulation of HTML content with ease.
+5. **Packages**  : 
+- The application utilizes the `goquery` package which offers powerful scraping capabilities, allowing the extraction and manipulation of HTML content with ease
 ### Frontend:
 
 For the frontend, **Vue.js**  was the chosen framework. My choice was influenced again by the curiosity to delve into an unfamiliar territory. Here's an insight into its structure: 
