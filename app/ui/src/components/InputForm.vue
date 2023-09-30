@@ -27,7 +27,7 @@ export default {
     return {
       localUrl,
       emitProcessData,
-      error  // Exposing error ref
+      error
     };
   }
 };
