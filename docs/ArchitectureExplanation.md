@@ -6,9 +6,9 @@ The WebScrapingChallenge application is structured into two main components: a b
 The API is built using **GO**  , a choice inspired by my desire to venture into an unfamiliar language. The core structure of the API is as follows: 
 1. **cmd Directory**  : 
 - Contains `main.go`, which acts as the entry point of the API. Here, all the routes for our endpoints are defined and linked with their respective functionalities. 
-2. **middlewares Directory**  : 
+2. **Middlewares**  : 
 - Contains `cors.go` which handles Cross-Origin Resource Sharing (CORS), ensuring that the API is accessible to the frontend application. 
-3. **Handlers Directory**  :
+3. **Handlers**  :
 - Responsible for managing HTTP requests to the different endpoints. It bridges the gap between incoming requests and the application's business logic. 
 4. **Services**  :
 - Comprises the heart of our API. The services for scraping and sentiment analysis encapsulate the business logic required for the endpoints' operations. 
