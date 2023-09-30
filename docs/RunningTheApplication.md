@@ -33,6 +33,7 @@ go run cmd/main.go
 
 
 This will start the API on `localhost` at port `4200`. 
+
 3. **Setting up the Vue.js UI** :
 
 a. **Navigate to the UI Directory** :
@@ -62,7 +63,8 @@ npm run serve
 
 
 
-Once compiled successfully, you should be able to access the Vue app on your browser, typically at `localhost:8080`. 
+Once compiled successfully, you should be able to access the Vue app on your browser, typically at `localhost:8080`.
+
 4. **Access the Application** :
 - With both the API and Vue app running, open your web browser. 
 - Navigate to the Vue app URL, which is usually `http://localhost:8080`. 
