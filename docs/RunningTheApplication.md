@@ -66,4 +66,4 @@ Once compiled successfully, you should be able to access the Vue app on your bro
 4. **Access the Application** :
 - With both the API and Vue app running, open your web browser. 
 - Navigate to the Vue app URL, which is usually `http://localhost:8080`. 
-- You can now interact with the application, and it will communicate with the API running on port `4200`.---
+- You can now interact with the application, and it will communicate with the API running on port `4200`.

@@ -28,4 +28,4 @@ For the frontend, **Vue.js**  was the chosen framework. My choice was influenced
 
 **Reflection** :
 
-Embarking on this project was exciting, because it provided an opportunity to explore new technologies, broadening horizons and challenging conventions. Particularly, the power and efficiency of GO stood out, marking it as a potential favorite for future projects. It's a journey that began with curiosity and culminated in a rich learning experience. I eagerly anticipate deepening my understanding of these technologies in the future.---
+Embarking on this project was exciting, because it provided an opportunity to explore new technologies, broadening horizons and challenging conventions. Particularly, the power and efficiency of GO stood out, marking it as a potential favorite for future projects. It's a journey that began with curiosity and culminated in a rich learning experience. I eagerly anticipate deepening my understanding of these technologies in the future.

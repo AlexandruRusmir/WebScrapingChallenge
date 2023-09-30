@@ -22,4 +22,4 @@ The WebScrapingChallenge API offers a set of endpoints designed for web scraping
 - `url` (required): The URL of the webpage to analyze. 
 - **Response** : Returns the sentiment of the webpage's content, which can be either `positive`, `negative`, or `neutral`.
 
-By using this API, users can easily fetch content from web pages, segment it by HTML tags, and gain insight into the overall sentiment of the content.---
+By using this API, users can easily fetch content from web pages, segment it by HTML tags, and gain insight into the overall sentiment of the content.
