@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="mb-4">
         <label for="tagSelector">Select tags:</label>
         <br>
         <select id="tagSelector" v-model="selectedTags" multiple class="custom-select">
@@ -37,7 +37,8 @@
 </script>
 <style scoped>
     .custom-select {
-        height: 150px; /* Adjust to your preference */
-        overflow-y: auto; /* Show scrollbar when the number of options exceeds the visible area */
+        height: 25rem;
+        overflow-y: auto;
+        width: 20rem;
     }
 </style>

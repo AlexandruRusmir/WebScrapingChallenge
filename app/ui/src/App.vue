@@ -2,6 +2,7 @@
   <div class="container mt-5">
     <InputForm :url="url" @processData="processData($event)" />
     <TagSelector :selectedTags="selectedTags" @update:selectedTags="updateSelectedTags" />
+    <DownloadResults :sentiment="sentiment" :contentData="content" />
     <SentimentDisplay :sentiment="sentiment" />
     <ContentDisplay :contentData="content" />
   </div>
@@ -14,13 +15,15 @@
   import SentimentDisplay from "./components/SentimentDisplay.vue";
   import ContentDisplay from "./components/ContentDisplay.vue";
   import TagSelector from "./components/TagSelector.vue";
+  import DownloadResults from "./components/DownloadResults.vue";
 
   export default {
     components: {
       InputForm,
       SentimentDisplay,
       ContentDisplay,
-      TagSelector
+      TagSelector,
+      DownloadResults
     },
     setup() {
       const url = ref("");
