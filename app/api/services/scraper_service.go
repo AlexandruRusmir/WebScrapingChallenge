@@ -7,7 +7,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-func getDefaultTags() []string {
+func GetDefaultTags() []string {
 	return []string{
 		"a", "abbr", "address", "article", "aside", "b", "blockquote", "body", "button",
 		"caption", "cite", "code", "div", "dl", "dt", "dd", "em", "figcaption", "figure",
@@ -92,7 +92,7 @@ func ScrapeContentWithWordCount(url string, tags []string) (map[string]interface
 
 func ScrapeContent(url string, tags []string) (map[string]interface{}, error) {
 	if len(tags) == 0 {
-		tags = getDefaultTags()
+		tags = GetDefaultTags()
 	}
 
 	doc, err := util.FetchDocument(url)
